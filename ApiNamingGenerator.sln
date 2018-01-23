@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiNamingGenerator", "ApiNamingGenerator\ApiNamingGenerator.csproj", "{0BD4F045-95B1-415C-972E-0D6F6C0C6C5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BD4F045-95B1-415C-972E-0D6F6C0C6C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD4F045-95B1-415C-972E-0D6F6C0C6C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD4F045-95B1-415C-972E-0D6F6C0C6C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD4F045-95B1-415C-972E-0D6F6C0C6C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62B06C2D-1286-4830-8A89-76012858893F}
+	EndGlobalSection
+EndGlobal
