@@ -21,10 +21,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\components\GeneratedNames.tsx" />
     <None Remove="ClientApp\components\NameGeneratorPage.tsx" />
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\components\GeneratedNames.tsx" />
     <TypeScriptCompile Include="ClientApp\components\NameGeneratorPage.tsx" />
   </ItemGroup>
 

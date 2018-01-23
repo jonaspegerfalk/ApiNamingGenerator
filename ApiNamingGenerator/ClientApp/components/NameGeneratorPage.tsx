@@ -1,6 +1,8 @@
 ﻿
 import * as React from 'react';
 import { RouteComponentProps } from 'react-router';
+import { GeneratedNames } from './GeneratedNames';
+
 interface NameGeneratorState {
     latestGenerated: string;
 }
@@ -15,6 +17,8 @@ export class NameGeneratorPage extends React.Component<RouteComponentProps<{}>, 
             <p>This is a simple example of a React component.</p>
             <p>Current count: <strong>{this.state.latestGenerated}</strong></p>
             <button onClick={() => { this.createNewName() }}>Generate</button>
+
+            <GeneratedNames />
         </div>;
     }
     createNewName() {
